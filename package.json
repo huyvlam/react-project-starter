@@ -1,0 +1,42 @@
+{
+  "name": "react-project-starter",
+  "version": "0.0.1",
+  "description": "A starter template for react project",
+  "keywords": [
+    "react",
+    "project",
+    "starter",
+    "template"
+  ],
+  "main": "lib/index.js",
+  "author": "Huy Lam",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/huyvlam",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build:dev": "cross-env NODE_ENV=development webpack",
+    "build:prod": "cross-env NODE_ENV=production webpack -p"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.3.0",
+    "eslint-plugin-react": "^7.1.0",
+    "expect": "^1.20.2",
+    "html-webpack-plugin": "^2.30.1",
+    "jest": "^20.0.4",
+    "mocha": "^3.4.2",
+    "path": "^0.12.7",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
