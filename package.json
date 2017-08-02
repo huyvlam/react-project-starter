@@ -9,10 +9,10 @@
     "template"
   ],
   "main": "lib/index.js",
-  "author": "Huy Lam",
+  "author": "Your Name",
   "license": "MIT",
   "repository": {
-    "url": "git+https://github.com/huyvlam",
+    "url": "git+https://github.com/huyvlam/react-project-starter",
     "type": "git"
   },
   "scripts": {

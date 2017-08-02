@@ -5,7 +5,7 @@ A shortcut to create a new React project using yarn package manager
 Homebrew:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-Yarn: 
+Yarn:
 brew install yarn
 
 ### React project:
@@ -38,3 +38,6 @@ These are typically what you need in a base react project. Feel free to add/remo
 touch .babelrc .gitignore .npmignore webpack.config.js
 
 eslint --init OR ./node_modules/.bin/eslint --init (initialize locally in your project)
+
+### Run project
+yarn start
