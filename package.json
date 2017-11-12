@@ -1,42 +1,50 @@
 {
   "name": "react-project-starter",
-  "version": "0.0.1",
-  "description": "A starter template for react project",
+  "version": "0.0.2",
+  "description": "Setup react project using yarn, webpack, babel. Also included are: starter template, redux, router, unit test, eslint.",
   "keywords": [
     "react",
     "project",
+    "setup",
     "starter",
-    "template"
+    "template",
+    "yarn",
+    "webpack",
+    "babel"
   ],
   "main": "lib/index.js",
   "author": "Huy Lam",
   "license": "MIT",
-  "repository": {
-    "url": "git+https://github.com/huyvlam/react-project-starter",
-    "type": "git"
-  },
+  "repository": "git+https://github.com/huyvlam/react-project-starter",
   "scripts": {
     "start": "webpack-dev-server",
     "build:dev": "cross-env NODE_ENV=development webpack",
     "build:prod": "cross-env NODE_ENV=production webpack -p"
   },
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-redux": "^5.0.6",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0"
+  },
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "cross-env": "^5.0.1",
-    "eslint": "^4.3.0",
-    "eslint-plugin-react": "^7.1.0",
-    "expect": "^1.20.2",
+    "cross-env": "^5.1.1",
+    "eslint": "^4.11.0",
+    "eslint-plugin-react": "^7.4.0",
+    "expect": "^21.2.1",
     "html-webpack-plugin": "^2.30.1",
-    "jest": "^20.0.4",
-    "mocha": "^3.4.2",
+    "jest": "^21.2.1",
+    "mocha": "^4.0.1",
     "path": "^0.12.7",
-    "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.6.1"
+    "prop-types": "^15.6.0",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
   }
 }
